@@ -31,6 +31,7 @@ dependencies:
       - aiohappyeyeballs==2.6.1
       - aiohttp==3.12.13
       - aiosignal==1.4.0
+      - annotated-types==0.7.0
       - attrs==25.3.0
       - audioread==3.0.1
       - certifi==2025.6.15
@@ -38,6 +39,7 @@ dependencies:
       - charset-normalizer==3.4.2
       - datasets==3.6.0
       - decorator==5.2.1
+      - deepspeed==0.17.2
       - dill==0.3.8
       - einops==0.8.1
       - filelock==3.18.0
@@ -45,6 +47,7 @@ dependencies:
       - frozenlist==1.7.0
       - fsspec==2025.3.0
       - hf-xet==1.1.5
+      - hjson==3.1.0
       - huggingface-hub==0.33.2
       - idna==3.10
       - jinja2==3.1.6
@@ -58,6 +61,7 @@ dependencies:
       - multidict==6.6.3
       - multiprocess==0.70.16
       - networkx==3.5
+      - ninja==1.11.1.4
       - numba==0.61.2
       - numpy==2.2.6
       - nvidia-cublas-cu12==12.6.4.1
@@ -71,6 +75,7 @@ dependencies:
       - nvidia-cusolver-cu12==11.7.1.2
       - nvidia-cusparse-cu12==12.5.4.2
       - nvidia-cusparselt-cu12==0.6.3
+      - nvidia-ml-py==12.575.51
       - nvidia-nccl-cu12==2.26.2
       - nvidia-nvjitlink-cu12==12.6.85
       - nvidia-nvtx-cu12==12.6.77
@@ -80,8 +85,11 @@ dependencies:
       - pooch==1.8.2
       - propcache==0.3.2
       - psutil==7.0.0
+      - py-cpuinfo==9.0.0
       - pyarrow==20.0.0
       - pycparser==2.22
+      - pydantic==2.11.7
+      - pydantic-core==2.33.2
       - python-dateutil==2.9.0.post0
       - pytz==2025.2
       - pyyaml==6.0.2
@@ -101,6 +109,7 @@ dependencies:
       - transformers==4.53.1
       - triton==3.3.1
       - typing-extensions==4.14.1
+      - typing-inspection==0.4.1
       - tzdata==2025.2
       - urllib3==2.5.0
       - xxhash==3.5.0
